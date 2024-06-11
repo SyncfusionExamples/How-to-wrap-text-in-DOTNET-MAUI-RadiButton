@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+             x:Class="RadioButton.MainPage">
+
+
+
+
+    <StackLayout>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="CharacterWrap" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="HeadTruncation" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="TailTruncation" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="MiddleTruncation" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="NoWrap" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="WordWrap"  WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+    </StackLayout>
+</ContentPage>
