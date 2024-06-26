@@ -21,6 +21,6 @@ The following code example illustrate how to set LineBreakMode in SfRadiButton.
 ```
    SfRadioButton radioButton = new SfRadioButton();
         radioButton.Text = "By clicking here, I state that I have read and understood the terms and conditions.";
-	radioButton.LineBreakMode = "WordWrap"; 
+	radioButton.LineBreakMode = LineBreakMode.WordWrap; 
 
 ```

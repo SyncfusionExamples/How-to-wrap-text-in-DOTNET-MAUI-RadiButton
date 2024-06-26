@@ -6,7 +6,12 @@
 
 
 
-    <syncfusion:SfRadioButton Text="By clicking here, I state that I have read and understood the terms and conditions." LineBreakMode="WordWrap"/>
-
-   
+    <StackLayout>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="CharacterWrap" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="HeadTruncation" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="TailTruncation" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="MiddleTruncation" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="NoWrap" WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+        <syncfusion:SfRadioButton x:Name="checkBox" LineBreakMode="WordWrap"  WidthRequest="200" HeightRequest="50" Text="The LineBreakMode allows you to wrap or truncate the text. The default value of this property is NoWrap. The following other options are available in LineBreakMode"/>
+    </StackLayout>
 </ContentPage>
