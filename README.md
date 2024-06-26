@@ -1,5 +1,5 @@
 # How-to-wrap-text-in-.NET-MAUI-RadiButton
-This repository contains a sample demonstrating of  wrap text in .NET MAUI RadiButton.
+This repository contains a sample demonstrating of wrapping text using LineBreakMode property in .NET MAUI RadiButton.
 
 ## LineBreakMode support in .NET MAUI RadiButton (SfRadiButton)
 The LineBreakModeSupport feature enables flexible text truncation and wrapping options within user interface components, enhancing readability and presentation. It facilitates various modes like WordWrap, CharacterWrap, MiddleTruncation, etc., accommodating diverse layout requirements efficiently.
